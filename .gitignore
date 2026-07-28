@@ -1,0 +1,18 @@
+# Generated data -- contains extracted text from your (possibly unpublished) manuscripts
+# and cited-source PDFs. Never commit this.
+cache/*.json
+reports/*.md
+reports/*.json
+reports/*.html
+reports/*.pdf
+
+# Stage 2 (agent semantic review) write-ups -- same reason as reports/ above: these quote
+# actual flagged passages from your own manuscripts. Found untracked and unexcluded
+# 2026-07-28; excluding retroactively before this repo is shared with anyone.
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
